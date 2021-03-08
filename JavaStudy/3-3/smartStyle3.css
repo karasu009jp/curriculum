@@ -1,0 +1,63 @@
+@media screen and (max-width: 479px){
+    #wrapper{
+        width: 200px;
+        margin: 0 auto;
+    }
+    
+    .header{
+        width: 200px;
+        height: 200px;
+    }
+
+    .menu{
+        width: 60px;
+        height: 160px;
+        position: relative;
+        right: 70px;
+    }
+
+    .box1,.box2,.box3{
+        width: 60px;
+        box-sizing: border-box;
+        background-color: #a9004b;
+        border: solid 10px white;
+    }
+    
+    .box1{
+        height: 55px;
+        border-bottom: solid 5px white;
+    }
+    
+    .box2{
+        height: 50px;
+        border-top: solid 5px white;
+        border-bottom: solid 5px white;
+    }
+    
+    .box3{
+        height: 55px;
+        border-top: solid 5px white;
+    }
+
+    .left{
+        width: 200px;
+        height: 100px;
+        float: none;
+    }
+
+    .right{
+        width: 200px;
+        float: none;
+    }
+
+    .contents{
+        /* float: none; */
+        position: relative;
+        left: 30px;
+        top: 20px;
+    }
+
+    .footer{
+        width: 200px;
+    }
+}
